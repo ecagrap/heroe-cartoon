@@ -1,0 +1,72 @@
+html body {
+    font-family: 'Maiden Orange', cursive;
+    margin: 0;
+}
+
+header{
+    background-color: #a1381e;
+    padding: 40px;
+    text-align: center;
+}
+
+h1{
+    font-size: 90px;
+    color: white;
+}
+
+header img {
+    border-radius: 100%;
+    width: 300px;
+    border: 10px solid #c03f1f
+}
+/* <header>
+            <img src="img/perfil1.jpeg" alt="imagen-perfil">
+            <h1>Dipper Pines</h1>
+        </header> */
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+img.imagen-grande {
+    max-width: 100%;
+}
+
+p.caption {
+    font-size: 16px;
+    color: gray;
+    font-style: italic;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #c03f1f;
+    text-decoration: none;   
+}
+
+footer {
+    margin-top: 20px;
+    padding: 40px 20px;
+    background-color: #a1381e;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer ul li {
+    color: white;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+footer ul li a {
+    color: #ffcec2;
+}
