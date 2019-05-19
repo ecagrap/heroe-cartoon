@@ -32,6 +32,18 @@ header img {
 
 img.imagen-grande {
     max-width: 100%;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #a1381e;
+    font-size: 50px;
+    text-align: center;
+}
+
+.content p {
+    font-size: 25px;
+    color: rgb(78, 78, 78);
 }
 
 p.caption {
@@ -44,15 +56,19 @@ ul{
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(78, 78, 78);
+    
 }
 
 a {
-    color: #c03f1f;
+    color: #ff977d;
     text-decoration: none;   
 }
 
 footer {
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 40px 20px;
     background-color: #a1381e;
 }
@@ -65,8 +81,4 @@ footer ul li {
     color: white;
     display: inline-block;
     margin: 0 5px;
-}
-
-footer ul li a {
-    color: #ffcec2;
 }
